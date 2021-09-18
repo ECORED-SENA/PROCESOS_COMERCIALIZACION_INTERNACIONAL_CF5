@@ -32,19 +32,108 @@
     p.mb-4 Los siguientes aspectos son los recomendados a tener en cuenta en la adaptación de los productos: 
     
     .row.justify-content-center
-      .col-lg-4.mb-4
+      .col-lg-4.mb-4.align-self-center
         figure
           img.mx-auto(src='@/assets/curso/tema3/img4.svg', alt='imagen ambiental', style='width:420px;')
             
       .col-lg-8
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            
-            img(src='@/assets/curso/tema3/icp1.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul(style='background-color: #E9E3FF')
-            .p-4
-              p.mb-0 Normativa legal (materias primas, análisis químicos, medioambiente, certificaciones, entre otras) y necesidades de lo clientes (rendimientos, prestaciones, gustos).
-    
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #27127A;')
+            .row.px-3.py-1.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Composición
+              .col-auto
+                figure
+                  img.mx-auto(src='@/assets/curso/tema3/flecha-correcta.svg', alt='imagen ambiental', style='width:50px;')
+          .contenedor-texto
+            p.mb-0 Normativa legal (materias primas, análisis químicos, medioambiente, certificaciones, entre otras) y necesidades de lo clientes (rendimientos, prestaciones, gustos).
+        
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #472EA6;')
+            .row.px-3.py-1.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Calidad
+              .col-auto
+                figure
+                  img.mx-auto(src='@/assets/curso/tema3/flecha-correcta.svg', alt='imagen ambiental', style='width:50px;')
+          .contenedor-texto
+            p.mb-0 Nivel de desarrollo del país, percepción de la calidad, hábitos de compra.
+        
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #7F43BB;')
+            .row.px-3.py-1.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Diseño
+              .col-auto
+                figure
+                  img.mx-auto(src='@/assets/curso/tema3/flecha-correcta.svg', alt='imagen ambiental', style='width:50px;')
+          .contenedor-texto
+            p.mb-0 Colores, forma, tendencias de moda, tipos de consumidor, entre otras.
+        
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #9743BB;')
+            .row.px-3.py-1.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Envase
+              .col-auto
+                figure
+                  img.mx-auto(src='@/assets/curso/tema3/flecha-correcta.svg', alt='imagen ambiental', style='width:50px;')
+          .contenedor-texto
+            p.mb-0 Capacidad, materiales, formas, puntos de venta.
+        
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #BB43B0;')
+            .row.px-3.py-1.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Embalaje
+              .col-auto
+                figure
+                  img.mx-auto(src='@/assets/curso/tema3/flecha-correcta.svg', alt='imagen ambiental', style='width:50px;')
+          .contenedor-texto
+            p.mb-0 Materiales, clima, medio de transporte.
+        
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #EF2A93;')
+            .row.px-3.py-1.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Etiqueta
+              .col-auto
+                figure
+                  img.mx-auto(src='@/assets/curso/tema3/flecha-correcta.svg', alt='imagen ambiental', style='width:50px;')
+          .contenedor-texto
+            p.mb-0 Información al cliente, idioma.
+        
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #EF2A66;')
+            .row.px-3.py-1.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Marca
+              .col-auto
+                figure
+                  img.mx-auto(src='@/assets/curso/tema3/flecha-correcta.svg', alt='imagen ambiental', style='width:50px;')
+          .contenedor-texto
+            p.mb-0 Posibilidad de registro, pronunciación, significados negativos, relación con el producto y relación con el país de origen.
+        
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #CD0A45;')
+            .row.px-3.py-1.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Servicio al cliente
+              .col-auto
+                figure
+                  img.mx-auto(src='@/assets/curso/tema3/flecha-correcta.svg', alt='imagen ambiental', style='width:50px;')
+          .contenedor-texto
+            p.mb-0 Plazo y lugar de entrega, servicio preventa y posventa. 
+        
+        
+        
     
     
     

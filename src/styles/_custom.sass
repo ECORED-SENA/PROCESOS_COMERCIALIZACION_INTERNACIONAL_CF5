@@ -66,6 +66,28 @@
   border-color: #EF2A66
 
 
+.contenedor-flecha
+    display: block
+    position: relative
+    background-color: #e9e3ff
+    border-radius: 10px
+    padding: 20px
+    padding-right: 0
+    padding-left: 230px
+
+.contenedor-titulo
+  width: 232px
+  position: absolute
+  left: -15px
+  border-radius: 52px
+  top: 50%
+  transform: translateY(-50%)
+  
+
+
+.contenedor-texto
+  padding: 4px
+
 
 
 
@@ -78,3 +100,31 @@
 @media screen and ( max-width: $bp-max-sm)
   .fondo-borde
     margin-inline: -1.5rem
+  .contenedor-flecha
+    padding: 25px
+    margin-bottom: 40px !important  
+    .contenedor-titulo
+      text-align: center
+      
+      width: auto
+      left: 50%
+      border-radius: 52px
+      top: 0
+      transform: translateY(-50%) translateX(-50%)
+
+    
+      
+@media screen and ( max-width: 449px)
+  .contenedor-flecha
+    margin-top: 40px
+    padding: 25px
+    padding-top: 35px
+    .contenedor-titulo
+      width: auto
+      left: 50%
+      border-radius: 52px
+      top: 0
+      transform: translateY(-50%) translateX(-50%)
+      .contenido-centro
+        justify-content: center
+      
