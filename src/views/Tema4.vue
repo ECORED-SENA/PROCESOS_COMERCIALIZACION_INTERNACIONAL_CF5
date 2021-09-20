@@ -91,13 +91,13 @@
 
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-primario.p-4.p-md-4.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure.py-3
                 img.mx-auto(src='@/assets/curso/tema4/img5.svg', alt='imagen ambiental', style='width: 265px;')
             .col-lg-8
-              .bloque-texto-a__texto.p-5
+              .bloque-texto-a__texto.p-lg-5.p-sm-4.p-4
                 p Las actividades de promoción y comunicación implican, necesariamente, recursos económicos, que deben ser considerados no como un gasto sino como una inversión. Cada empresa, dependiendo de sus posibilidades y objetivos, determina el porcentaje del total de ventas de años anteriores que desea invertir en estos elementos, con el fin de impactar por medio de estos en el mercado internacional.
 
 

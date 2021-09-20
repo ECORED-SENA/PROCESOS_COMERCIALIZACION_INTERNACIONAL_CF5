@@ -174,13 +174,13 @@
 
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-acento-botones.p-4.p-md-4.mb-5 
+        .bloque-texto-a.color-primario.p-4.p-md-4.mb-5 
           .row.m-0.align-items-center.justify-content-center
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-0.mb-lg-0
               figure.py-3
                 img.mx-auto(src='@/assets/curso/tema3/img6.svg', alt='imagen ambiental', style='width: 350px;')
             .col-lg-8
-              .bloque-texto-a__texto.p-5
+              .bloque-texto-a__texto.p-lg-5.p-sm-4.p-4
                 p Son todos los medios que utilizan las empresas para comunicar el mensaje que desean trasmitir a los clientes. En este aspecto, se plantea toda la política de promoción y publicidad, información que se ampliará posteriormente.
 
 
