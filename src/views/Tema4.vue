@@ -13,7 +13,7 @@
         p.mb-4 El posicionamiento es la estrategia que tiene la empresa para dirigir y controlar la percepción del producto en el mercado, y se logra por medio de los instrumentos de promoción y comunicación existentes, que garanticen el éxito del resultado por medio de la generación de más conciencia en el consumidor, una actitud más positiva o mayores compras.
       .col-lg-5
         figure
-          img.mx-auto(src='@/assets/curso/tema4/img1.svg', alt='imagen ambiental', style='width:390px;')
+          img.img-custom1.mx-auto(src='@/assets/curso/tema4/img1.svg', alt='imagen ambiental', style='')
 
     #t_4_1.titulo-segundo
       .h2 4.1 Elementos

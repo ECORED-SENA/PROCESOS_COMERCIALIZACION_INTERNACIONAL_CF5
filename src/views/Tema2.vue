@@ -12,7 +12,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         figure
-          img.mx-auto(src='@/assets/curso/tema2/img1.svg', alt='imagen ambiental', style='width:399px;')
+          img.img-custom1.mx-auto(src='@/assets/curso/tema2/img1.svg', alt='imagen ambiental', style='')
       .col-lg-6
         .tarjeta-numerada.color-primario.p-5.mb-4(style='background-color: #efebff; border: 0;')
           .tarjeta-numerada__numero.mt-lg-3(style='background-color: #EF2A66;')

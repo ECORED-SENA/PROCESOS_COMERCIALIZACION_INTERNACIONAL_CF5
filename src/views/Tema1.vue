@@ -29,8 +29,8 @@
                 i.fas.fa-angle-right(style='color: #472EA6;')
                 p.mb-0 Contratos de administración.
       .col-xl-5.align-self-center
-        figure.mb-5
-          img.mx-auto(src='@/assets/curso/tema1/img1.svg', alt='imagen ambiental', style='width:380px;')
+          figure.mb-5
+            img.img-custom1.mx-auto(src='@/assets/curso/tema1/img1.svg', alt='imagen ambiental', style='')
 
     p.mb-5 Asimismo, el plan de mercadeo internacional brinda las herramientas necesarias para que los empresarios desarrollen procesos de internacionalización de sus productos, de una manera eficiente y efectiva; se desarrolla en etapas y, en su inicio, requiere de un análisis detallado de los elementos que respaldan el diagnóstico situacional. A continuación, encontrará dichos elementos y su respectiva conceptualización:
 
@@ -73,7 +73,7 @@
                 p.mb-0 Carencia de recursos para financiar operaciones de comercialización internacional.
           .col-md-6.col-xl-4
             figure
-              img.mx-auto(src='@/assets/curso/tema1/img3.svg', alt='imagen ambiental', style='width:400px;')
+              img.img-custom1.mx-auto(src='@/assets/curso/tema1/img3.svg', alt='imagen ambiental', style='')
         
       .py-0.py-md-0(titulo="Fortalezas" :icono="require('@/assets/curso/tema1/icon2.svg')")
         .row.justify-content-around.py-5.py-md-5.fondo-tab.mx-0
@@ -96,7 +96,7 @@
               
           .col-md-6.col-xl-4.mb-4.mb-md-0
             figure
-              img.mx-auto(src='@/assets/curso/tema1/img4.svg', alt='imagen ambiental', style='width:400px;')
+              img.img-custom1.mx-auto(src='@/assets/curso/tema1/img4.svg', alt='imagen ambiental', style='')
               
         
     separador
@@ -108,7 +108,7 @@
     TabsB.color-primario.mb-5
       .py-0.py-md-0(titulo="Oportunidades" :icono="require('@/assets/curso/tema1/icon3.svg')")
         .row.justify-content-around.py-5.py-md-5.fondo-tab.mx-0
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.align-self-center
             p.mb-4 Se definen como todo factor positivo generado por el entorno externo que, bien aprovechado, puede favorecer el cumplimiento de los objetivos propuestos. 
             p.mb-4 Ejemplos:
             ul.lista-ul
@@ -123,11 +123,11 @@
                 p.mb-0 Inexistencia de la competencia
           .col-md-6.col-xl-4
             figure
-              img.mx-auto(src='@/assets/curso/tema1/img5.svg', alt='imagen ambiental', style='width:400px;')
+              img.img-custom1.mx-auto(src='@/assets/curso/tema1/img5.svg', alt='imagen ambiental', style='')
         
       .py-0.py-md-0(titulo="Amenazas " :icono="require('@/assets/curso/tema1/icon4.svg')")
         .row.justify-content-around.py-5.py-md-5.fondo-tab.mx-0
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.align-self-center
             p.mb-4 Todos los factores externos de la empresa que no son controlables y que pueden poner en peligro el cumplimiento de los objetivos de la compañía.
             p.mb-4 Ejemplos:
             ul.lista-ul
@@ -143,7 +143,7 @@
               
           .col-md-6.col-xl-4.mb-4.mb-md-0
             figure
-              img.mx-auto(src='@/assets/curso/tema1/img6.svg', alt='imagen ambiental', style='width:400px;')
+              img.img-custom1.mx-auto(src='@/assets/curso/tema1/img6.svg', alt='imagen ambiental', style='')
 
 
     separador

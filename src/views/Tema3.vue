@@ -34,7 +34,7 @@
     .row.justify-content-center
       .col-lg-4.mb-4.align-self-center
         figure
-          img.mx-auto(src='@/assets/curso/tema3/img4.svg', alt='imagen ambiental', style='width:420px;')
+          img.img-custom1.mx-auto(src='@/assets/curso/tema3/img4.svg', alt='imagen ambiental', style='')
             
       .col-lg-8
         .contenedor-flecha.mb-2
@@ -175,7 +175,7 @@
     .row.justify-content-center
       .col-lg-10
         .bloque-texto-a.color-acento-botones.p-4.p-md-4.mb-5 
-          .row.m-0.align-items-center.justify-content-between
+          .row.m-0.align-items-center.justify-content-center
             .col-lg-4.mb-4.mb-lg-0
               figure.py-3
                 img.mx-auto(src='@/assets/curso/tema3/img6.svg', alt='imagen ambiental', style='width: 350px;')
