@@ -32,12 +32,12 @@
     p.mb-4 Los siguientes aspectos son los recomendados a tener en cuenta en la adaptación de los productos: 
     
     .row.justify-content-center
-      .col-lg-4.mb-4.align-self-center
+      .col-6.col-lg-4.align-self-center.mb-4.mb-lg-0
         figure
-          img.img-custom1.mx-auto(src='@/assets/curso/tema3/img4.svg', alt='imagen ambiental', style='')
+          img.mx-auto(src='@/assets/curso/tema3/img4.svg', alt='imagen ambiental', style='width: 380px')
             
-      .col-lg-8
-        .contenedor-flecha.mb-2
+      .col-lg-8.align-self-center
+        .contenedor-flecha.mb-3
           .contenedor-titulo(style='background-color: #27127A;')
             .row.px-3.py-1.contenido-centro
               .col.align-self-center
@@ -49,7 +49,7 @@
             p.mb-0 Normativa legal (materias primas, análisis químicos, medioambiente, certificaciones, entre otras) y necesidades de lo clientes (rendimientos, prestaciones, gustos).
         
         
-        .contenedor-flecha.mb-2
+        .contenedor-flecha.mb-3
           .contenedor-titulo(style='background-color: #472EA6;')
             .row.px-3.py-1.contenido-centro
               .col.align-self-center
@@ -61,7 +61,7 @@
             p.mb-0 Nivel de desarrollo del país, percepción de la calidad, hábitos de compra.
         
         
-        .contenedor-flecha.mb-2
+        .contenedor-flecha.mb-3
           .contenedor-titulo(style='background-color: #7F43BB;')
             .row.px-3.py-1.contenido-centro
               .col.align-self-center
@@ -73,7 +73,7 @@
             p.mb-0 Colores, forma, tendencias de moda, tipos de consumidor, entre otras.
         
         
-        .contenedor-flecha.mb-2
+        .contenedor-flecha.mb-3
           .contenedor-titulo(style='background-color: #9743BB;')
             .row.px-3.py-1.contenido-centro
               .col.align-self-center
@@ -85,7 +85,7 @@
             p.mb-0 Capacidad, materiales, formas, puntos de venta.
         
         
-        .contenedor-flecha.mb-2
+        .contenedor-flecha.mb-3
           .contenedor-titulo(style='background-color: #BB43B0;')
             .row.px-3.py-1.contenido-centro
               .col.align-self-center
@@ -97,7 +97,7 @@
             p.mb-0 Materiales, clima, medio de transporte.
         
         
-        .contenedor-flecha.mb-2
+        .contenedor-flecha.mb-3
           .contenedor-titulo(style='background-color: #EF2A93;')
             .row.px-3.py-1.contenido-centro
               .col.align-self-center
@@ -109,7 +109,7 @@
             p.mb-0 Información al cliente, idioma.
         
         
-        .contenedor-flecha.mb-2
+        .contenedor-flecha.mb-3
           .contenedor-titulo(style='background-color: #EF2A66;')
             .row.px-3.py-1.contenido-centro
               .col.align-self-center
@@ -121,7 +121,7 @@
             p.mb-0 Posibilidad de registro, pronunciación, significados negativos, relación con el producto y relación con el país de origen.
         
         
-        .contenedor-flecha.mb-2
+        .contenedor-flecha.mb-3
           .contenedor-titulo(style='background-color: #CD0A45;')
             .row.px-3.py-1.contenido-centro
               .col.align-self-center
@@ -144,12 +144,70 @@
     p.mb-4 Es el valor que los clientes están dispuestos a pagar por adquirir un producto. Los elementos que componen el precio internacional son:
 
     .row.justify-content-center
-      .col-lg-10
-        .titulo-sexto.color-primario
+      .col-lg-11
+        .titulo-sexto.color-primario.mb-5
           p.mb-0 Elementos del precio internacional
-        figure
-          img.mx-auto(src='@/assets/curso/tema3/img5.svg', alt='Elementos del precio internacional', style='')
-
+        
+      .col-lg-9
+        .contenedor-flecha.mb-3
+          .contenedor-titulo2(style='background-color: #27127A;')
+            .row.px-3.py-2.contenido-centro
+              .col-auto.align-self-center
+                p.text-white.mb-0 Precio de coste
+              
+          .contenedor-texto.pe-3
+            p.mb-0 Este precio abarca los costos de producción del producto, tales como: materia prima, mano de obra, envase y embalaje. En adición, se incluyen los costos de adaptación del producto al mercado de destino.
+        
+        
+        .contenedor-flecha.mb-3
+          .contenedor-titulo2(style='background-color: #472EA6;')
+            .row.px-3.py-2.contenido-centro
+              .col.align-self-center
+                p.text-white.mb-0 Margen comercial
+              
+          .contenedor-texto.pe-3
+            p.mb-0 Porcentaje de ganancia que se desea obtener al comercializar los productos. En este aspecto se debe revisar el precio de la competencia para que este sea competitivo. 
+        
+        
+        .contenedor-flecha.mb-3
+          .contenedor-titulo2(style='background-color: #7F43BB;')
+            .row.px-3.py-2.contenido-centro
+              .col-auto.align-self-center
+                p.text-white.mb-0 Gastos de transporte y seguros
+              
+          .contenedor-texto.pe-3
+            p.mb-0 Se incluyen todos los gastos hasta poner el producto en manos del comprador. Es decir, gastos de transporte y seguros a nivel nacional e internacional.
+        
+        
+        .contenedor-flecha.mb-3
+          .contenedor-titulo2(style='background-color: #9743BB;')
+            .row.px-3.py-2.contenido-centro
+              .col-auto.align-self-center
+                p.text-white.mb-0 Aranceles y gastos de aduana
+          .contenedor-texto.pe-3
+            p.mb-0 Son todos los pagos realizados en el territorio aduanero nacional y en el país de destino. Algunos de estos son: despacho de exportación e importación, aranceles y demás impuestos o tasas existentes en el país importador.
+        
+        
+        .contenedor-flecha.mb-3
+          .contenedor-titulo2(style='background-color: #BB43B0;')
+            .row.px-3.py-2.contenido-centro
+              .col-auto.align-self-center
+                p.text-white.mb-0 Márgenes de distribución
+              
+          .contenedor-texto.pe-3
+            p.mb-0 Se incluyen los márgenes o porcentaje de ganancia que espera obtener cada uno de los eslabones de la cadena de distribución: importador, distribuidor y detallista. 
+        
+        
+        .contenedor-flecha.mb-3
+          .contenedor-titulo2(style='background-color: #EF2A93;')
+            .row.px-3.py-2.contenido-centro
+              .col-auto.align-self-center
+                p.text-white.mb-0 Otros gastos 
+              
+          .contenedor-texto.pe-3
+            p.mb-0 Cualquier otro gasto que no se haya mencionado anteriormente, tales como comisiones, certificaciones, entre otros.
+        
+        
     
     
     
@@ -162,9 +220,60 @@
     
     p.mb-4 Existen diferentes canales de distribución y cada empresa elige el que más se acomode a sus posibilidades y necesidades. Por ejemplo:
     
-    figure.mb-5
-      img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      figcaption RECURSO EN REDISEÑO
+    .row.justify-content-center(style='background-color: #F3F9FF')
+      .col-lg-12.mt-5.ps-lg-5.mb-5
+        .row
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card1.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card2.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card3.svg', style='width: 200px')
+              
+        .row
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card4.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card5.svg', style='width: 220px')
+              
+        .row
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card6.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card7.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card8.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card9.svg', style='width: 200px')
+              
+        .row
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card10.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card11.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card12.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card13.svg', style='width: 220px')
+          .col-6.col-lg-auto.mb-4
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/card14.svg', style='width: 200px')
+              
+              
+          
     
     
     
@@ -176,7 +285,7 @@
       .col-lg-10
         .bloque-texto-a.color-primario.p-4.p-md-4.mb-5 
           .row.m-0.align-items-center.justify-content-center
-            .col-lg-4.mb-0.mb-lg-0
+            .col-8.col-lg-4.mb-0.mb-lg-0
               figure.py-3
                 img.mx-auto(src='@/assets/curso/tema3/img6.svg', alt='imagen ambiental', style='width: 350px;')
             .col-lg-8

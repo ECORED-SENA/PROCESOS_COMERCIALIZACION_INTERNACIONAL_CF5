@@ -41,7 +41,7 @@
       .row.justify-content-center.mb-4
         .col-lg-8
           figure.mb-5
-            img.mx-auto(src='@/assets/curso/tema1/img2.svg', alt='Figura 1  Elementos del diagnóstico de internacionalización', style='')
+            img.mx-auto(src='@/assets/curso/tema1/img2.svg', alt='elementos del diagnóstico de internacionalización', style='')
 
     p.mb-5 Asimismo, el plan de mercadeo internacional brinda las herramientas necesarias para que los empresarios desarrollen procesos de internacionalización de sus productos, de una manera eficiente y efectiva; se desarrolla en etapas y, en su inicio, requiere de un análisis detallado de los elementos que respaldan el diagnóstico situacional. A continuación, encontrará dichos elementos y su respectiva conceptualización:
 

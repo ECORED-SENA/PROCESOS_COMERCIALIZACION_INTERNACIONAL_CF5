@@ -10,7 +10,7 @@
     
     p.mb-4
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-6.col-lg-6
         figure
           img.img-custom1.mx-auto(src='@/assets/curso/tema2/img1.svg', alt='imagen ambiental', style='')
       .col-lg-6

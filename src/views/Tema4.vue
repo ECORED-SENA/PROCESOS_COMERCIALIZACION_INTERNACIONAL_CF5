@@ -8,12 +8,14 @@
         span 4
       h1 Posicionamiento y mensaje promocional
     
-    .row.justify-content-between.mb-4
+    .row.justify-content-center.mb-4
       .col-lg-6.align-self-center
         p.mb-4 El posicionamiento es la estrategia que tiene la empresa para dirigir y controlar la percepción del producto en el mercado, y se logra por medio de los instrumentos de promoción y comunicación existentes, que garanticen el éxito del resultado por medio de la generación de más conciencia en el consumidor, una actitud más positiva o mayores compras.
-      .col-lg-5
-        figure
-          img.img-custom1.mx-auto(src='@/assets/curso/tema4/img1.svg', alt='imagen ambiental', style='')
+      .col-6.col-lg-6
+        .row.justify-content-center
+          .col-lg-10
+            figure
+              img.img-custom1.mx-auto(src='@/assets/curso/tema4/img1.svg', alt='imagen ambiental', style='width:393px;')
 
     #t_4_1.titulo-segundo
       .h2 4.1 Elementos
@@ -44,7 +46,7 @@
               li 
                 i.fas.fa-angle-right(style='color:#472EA6;')
                 p.mb-0 Determinar la eficacia de la campaña.
-          .col-lg-4
+          .col-7.col-lg-4
             figure
               img.mx-auto(src='@/assets/curso/tema4/img2.svg', alt='imagen ambiental', style='width: 360px;')
 
@@ -62,13 +64,68 @@
         .titulo-sexto.color-primario
           p.mb-0 Instrumentos promocionales
 
-    .row.justify-content-center
-      .col-lg-4.align-self-center.mb-5
+    .row.justify-content-center.mb-5
+      .col-5.col-lg-4.align-self-center.mb-5.mb-lg-0
         figure
           img.mx-auto(src='@/assets/curso/tema4/img3.svg', alt='imagen ambiental', style='width: 280px;')
-      .col-lg-8.align-self-center.mb-5
-        figure
-          img.mx-auto(src='@/assets/curso/tema4/img4.svg', alt=' Instrumentos promocionales', style='')
+      .col-lg-8.align-self-center
+        
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #472EA6;')
+            .row.px-3.py-2.contenido-centro
+              .col.align-self-center
+                p.text-center.text-white.mb-0 Venta personal
+              .col-auto
+                .p-0.p-lg-3
+                  
+          .contenedor-texto.pe-2
+            p.mb-0 La venta personal, a diferencia de la publicidad o la promoción de ventas, implica relaciones directas entre el vendedor y el comprador o cliente potencial. 
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #7F43BB;')
+            .row.px-3.py-2.contenido-centro
+              .col.align-self-center
+                p.text-center.text-white.mb-0 Ferias comerciales
+              .col-auto
+                .p-0.p-lg-3
+                  
+          .contenedor-texto.pe-2
+            p.mb-0 La participación en ferias proporciona la posibilidad de dar a conocer los productos en los mercados internacionales y establecer contactos con posibilidad de negociación.
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #9743BB;')
+            .row.px-2.py-2.contenido-centro
+              .col-auto.align-self-center
+                p.text-center.text-white.mb-0.py-1 Documentación promocional 
+              
+                  
+          .contenedor-texto.pe-2
+            p.mb-0 En este instrumento se incluyen los volantes, carteles, catálogos y demás documentos que son adaptados a los mercados exteriores.
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #BB43B0;')
+            .row.px-3.py-2.contenido-centro
+              .col.align-self-center
+                p.text-center.text-white.mb-0 <em>Marketing digital</em>
+              .col-auto
+                .p-0.p-lg-3
+                  
+          .contenedor-texto.pe-2
+            p.mb-0 Uno de los instrumentos más utilizados, el cual abarca el uso de las redes sociales, páginas web corporativas, blogs, e-mails, entre otros.
+        
+        .contenedor-flecha.mb-2
+          .contenedor-titulo(style='background-color: #EF2A66;')
+            .row.px-3.py-2.contenido-centro
+              .col.align-self-center
+                p.text-center.text-white.mb-0 Relaciones públicas 
+              .col-auto
+                .p-0.p-lg-3
+                  
+          .contenedor-texto.pe-2
+            p.mb-0 Se enfocan en las interacciones con los clientes. En el contexto proactivo, a las empresas les interesa establecer identidades globales para incrementar las ventas, diferenciar los bienes y servicios y atraer empleados.
+        
+        
 
     p.mb-4 Finalmente, se hace necesario medir el impacto y eficacia de estos elementos en la búsqueda del posicionamiento de la marca. En este aspecto, es indispensable citar a Czinkota y Ronkainen, quienes manifiestan que:
 
@@ -77,7 +134,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left(style="color: #EA3065;font-size:24px;")
-            h6.mb-0 Las medidas que más se utilizan para validar la eficacia de la promoción son las ventas, conciencia, recordación, criterio ejecutivo, intención de compra y rentabilidad, sin importar el medio que se utilice
+            h5.mb-0 Las medidas que más se utilizan para validar la eficacia de la promoción son las ventas, conciencia, recordación, criterio ejecutivo, intención de compra y rentabilidad, sin importar el medio que se utilice
             i.fas.fa-quote-right(style="color: #EA3065;font-size:24px;")
           .bloque-texto-d__autor.text-center
             p.mb-0 (Czinkota y Ronkainen, 2013).
@@ -91,9 +148,9 @@
 
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-primario.p-4.p-md-4.mb-5 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-center
+            .col-7.col-lg-4.mb-4.mb-lg-0
               figure.py-3
                 img.mx-auto(src='@/assets/curso/tema4/img5.svg', alt='imagen ambiental', style='width: 265px;')
             .col-lg-8

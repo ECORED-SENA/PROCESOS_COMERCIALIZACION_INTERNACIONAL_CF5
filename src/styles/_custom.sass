@@ -83,6 +83,13 @@
   top: 50%
   transform: translateY(-50%)
   
+.contenedor-titulo2
+  width: 295px
+  position: absolute
+  left: -75px
+  border-radius: 52px
+  top: 50%
+  transform: translateY(-50%)
 
 
 .contenedor-texto
@@ -106,20 +113,22 @@
     margin-bottom: 0
 
   
-@media screen and ( max-width: $bp-max-sm)
+@media screen and ( max-width: $bp-max-md)
   .fondo-borde
     margin-inline: -1.5rem
   .contenedor-flecha
     padding: 25px
     margin-bottom: 40px !important  
-    .contenedor-titulo
+    
+    .contenedor-titulo, .contenedor-titulo2  
       text-align: center
-      
-      width: auto
+      width: 240px
       left: 50%
       border-radius: 52px
       top: 0
       transform: translateY(-50%) translateX(-50%)
+  .centrado-responsive
+    justify-content: center
 
     
       
@@ -128,8 +137,8 @@
     margin-top: 40px
     padding: 25px
     padding-top: 35px
-    .contenedor-titulo
-      width: auto
+    .contenedor-titulo, 
+      width: 240px
       left: 50%
       border-radius: 52px
       top: 0
