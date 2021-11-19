@@ -8,7 +8,8 @@
         span 2
       h1 Selección de mercados
     
-    p.mb-4
+    p.mb-4 Antes de iniciar el proceso de selección de mercados, las empresas deben tomar decisiones respecto a la estrategia de expansión que más se adecúe a su perfil. Las alternativas básicas se fundamentan en dos: 
+
     .row.justify-content-center.mb-5
       .col-6.col-lg-6
         figure
@@ -121,7 +122,7 @@
     #t_2_2.titulo-segundo
       .h2 2.2 Agrupación de países 
 
-    p.mb-4
+    p.mb-4 Posteriormente a la elección de la alternativa de expansión de mercados, las empresas enfocan sus esfuerzos en conocer el país en el cual se llevará a cabo el proceso de comercialización. En este aspecto, no es conveniente reflexionar en términos de países individuales, sino más bien en términos de conjunto de países. No obstante, este proceso no pretende elegir los países más favorables, pretende eliminar aquellos que no cumplan con los criterios que se hayan seleccionado como básicos. Algunos de estos criterios son: 
 
     .row.justify-content-center.mb-4
       .col-lg-8
@@ -148,7 +149,7 @@
 
     separador
     #t_2_3.titulo-segundo
-      .h2 2.3 Motion + Presentador
+      .h2 2.3 Segmentación de mercados y variables
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -167,9 +168,21 @@
         .titulo-sexto.color-primario
           p.mb-0 Ventajas de la segmentación de mercados
         
+        figure.mb-0
+          img.mb-4.mx-auto(src='@/assets/curso/tema2/ventajas1.svg', alt='Ventajas de la segmentación de mercados', style='')
+        figure.mb-0
+          img.mb-4.mx-auto(src='@/assets/curso/tema2/ventajas2.svg', alt='Ventajas de la segmentación de mercados', style='')
+        figure.mb-0
+          img.mb-4.mx-auto(src='@/assets/curso/tema2/ventajas3.svg', alt='Ventajas de la segmentación de mercados', style='')
+        figure.mb-0
+          img.mb-4.mx-auto(src='@/assets/curso/tema2/ventajas4.svg', alt='Ventajas de la segmentación de mercados', style='')
+        figure.mb-0
+          img.mb-4.mx-auto(src='@/assets/curso/tema2/ventajas5.svg', alt='Ventajas de la segmentación de mercados', style='')
         figure.mb-5
-          img.mb-4.mx-auto(src='@/assets/curso/tema2/img7.svg', alt='Ventajas de la segmentación de mercados', style='')
+          img.mb-4.mx-auto(src='@/assets/curso/tema2/ventajas6.svg', alt='Ventajas de la segmentación de mercados', style='')
           figcaption Nota. Tomada de Fernández (2009).
+
+
 
     h4.mb-5 Variables de segmentación de mercados 
     p.mb-4 Es vital reconocer las variables de segmentación de mercados, debido a que brindarán la posibilidad de establecer el grupo de mercado objetivo de manera clara y precisa. Las variables de segmentación del mercado son:

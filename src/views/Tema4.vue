@@ -112,7 +112,7 @@
                 .p-0.p-lg-3
                   
           .contenedor-texto.pe-2
-            p.mb-0 Uno de los instrumentos más utilizados, el cual abarca el uso de las redes sociales, páginas web corporativas, blogs, e-mails, entre otros.
+            p.mb-0 Uno de los instrumentos más utilizados, el cual abarca el uso de las redes sociales, páginas <em>web</em> corporativas, <em>blogs</em>, <em>e-mails</em>, entre otros.
         
         .contenedor-flecha.mb-2
           .contenedor-titulo(style='background-color: #EF2A66;')

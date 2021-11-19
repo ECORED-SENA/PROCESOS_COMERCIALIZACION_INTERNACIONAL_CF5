@@ -11,8 +11,8 @@
     p.mb-4 Las empresas colombianas se caracterizan por desarrollar productos creativos, innovadores y de excelente calidad, con alto potencial de ser comercializados a nivel internacional, pero, debido a la carencia del conocimiento y las prácticas que les faciliten el acceso a estos mercados, han perdido la oportunidad de ser líderes globalmente.
     .row(style='justify-content: space-between;')
       .col-xl-5.mb-5
-        p.mb-4 El mercadeo o marketing internacional abarca cada una de las actividades, instituciones y procesos, más allá de las fronteras nacionales, que crean, comunican, entregan e intercambian ofertas que tienen un valor para los grupos de interés y la sociedad.
-        p.mb-5 La estrategia de marketing se presenta de diferentes formas (Czinkota y Ronkainen, 2013):
+        p.mb-4 El mercadeo o <em>marketing</em> internacional abarca cada una de las actividades, instituciones y procesos, más allá de las fronteras nacionales, que crean, comunican, entregan e intercambian ofertas que tienen un valor para los grupos de interés y la sociedad.
+        p.mb-5 La estrategia de <em>marketing</em> se presenta de diferentes formas (Czinkota y Ronkainen, 2013):
         .row.justify-content-center
           .col-auto
             ul.lista-ul
@@ -43,7 +43,6 @@
           figure.mb-5
             img.mx-auto(src='@/assets/curso/tema1/img2.svg', alt='elementos del diagnóstico de internacionalización', style='')
 
-    p.mb-5 Asimismo, el plan de mercadeo internacional brinda las herramientas necesarias para que los empresarios desarrollen procesos de internacionalización de sus productos, de una manera eficiente y efectiva; se desarrolla en etapas y, en su inicio, requiere de un análisis detallado de los elementos que respaldan el diagnóstico situacional. A continuación, encontrará dichos elementos y su respectiva conceptualización:
 
     
     #t_1_1.titulo-segundo
@@ -120,7 +119,7 @@
                 p.mb-0 Aumento del poder adquisitivo del mercado meta.
               li 
                 i.fas.fa-angle-right(style='color: #472EA6;')
-                p.mb-0 Inexistencia de la competencia
+                p.mb-0 Inexistencia de la competencia.
           .col-md-6.col-xl-4
             figure
               img.img-custom1.mx-auto(src='@/assets/curso/tema1/img5.svg', alt='imagen ambiental', style='')
@@ -157,9 +156,9 @@
         .titulo-sexto.color-primario
           p.mb-0 Matriz DAFO
     .row.justify-content-center
-      .col-lg-6.mb-5
+      .col-lg-7.mb-5
         figure
-          img.mx-auto(src='@/assets/curso/tema1/img7.svg', alt='Matriz DAFO', style='width:540px;')
+          img.mx-auto(src='@/assets/curso/tema1/img7.svg', alt='Matriz DAFO', style='')
 
     p.mb-5 De este modo, las empresas exponen sus debilidades, fortalezas, amenazas y oportunidades en una matriz que les permite visualizar de una manera más clara cada uno de estos aspectos y desarrollar estrategias para aprovechar las oportunidades del mercado, disminuir las debilidades de la empresa y contrarrestar los efectos de las amenazas existentes.
     .row.justify-content-around.fondo-rectangular.py-5.mb-5
